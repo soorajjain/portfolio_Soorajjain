@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio_Soorajjain/static/css/main.d7e04931.css",
-    "main.js": "/Portfolio_Soorajjain/static/js/main.b5fa8ffe.js",
-    "static/js/453.8635fdc4.chunk.js": "/Portfolio_Soorajjain/static/js/453.8635fdc4.chunk.js",
-    "static/media/hro-sooraj.png": "/Portfolio_Soorajjain/static/media/hro-sooraj.0b4c53ab15518b3770e4.png",
-    "static/media/natural_foods_project.png": "/Portfolio_Soorajjain/static/media/natural_foods_project.1db5410a655d570bb426.png",
-    "static/media/Sooraj_portfolio.png": "/Portfolio_Soorajjain/static/media/Sooraj_portfolio.d5a7d666191db5adf46c.png",
-    "static/media/microsoft_clone.png": "/Portfolio_Soorajjain/static/media/microsoft_clone.1011f6efe3e4e8d7d0eb.png",
-    "static/media/freelance_project.png": "/Portfolio_Soorajjain/static/media/freelance_project.966bcc7385c700eb8107.png",
-    "static/media/calculator_project.png": "/Portfolio_Soorajjain/static/media/calculator_project.4c7d0c3d792da1841a46.png",
-    "static/media/logo-sj.png": "/Portfolio_Soorajjain/static/media/logo-sj.8a2c6410c931c9fc2c0b.png",
-    "static/media/hero-devices-sj.svg": "/Portfolio_Soorajjain/static/media/hero-devices-sj.ca82e97c349a897082b6268dd7f8d733.svg",
-    "static/media/logo-white.png": "/Portfolio_Soorajjain/static/media/logo-white.656d63724f5e9b5c0f81.png",
-    "index.html": "/Portfolio_Soorajjain/index.html",
-    "main.d7e04931.css.map": "/Portfolio_Soorajjain/static/css/main.d7e04931.css.map",
-    "main.b5fa8ffe.js.map": "/Portfolio_Soorajjain/static/js/main.b5fa8ffe.js.map",
-    "453.8635fdc4.chunk.js.map": "/Portfolio_Soorajjain/static/js/453.8635fdc4.chunk.js.map"
+    "main.css": "/portfolio_Soorajjain/static/css/main.d7e04931.css",
+    "main.js": "/portfolio_Soorajjain/static/js/main.f70b831d.js",
+    "static/js/453.8635fdc4.chunk.js": "/portfolio_Soorajjain/static/js/453.8635fdc4.chunk.js",
+    "static/media/hro-sooraj.png": "/portfolio_Soorajjain/static/media/hro-sooraj.0b4c53ab15518b3770e4.png",
+    "static/media/natural_foods_project.png": "/portfolio_Soorajjain/static/media/natural_foods_project.1db5410a655d570bb426.png",
+    "static/media/Sooraj_portfolio.png": "/portfolio_Soorajjain/static/media/Sooraj_portfolio.d5a7d666191db5adf46c.png",
+    "static/media/microsoft_clone.png": "/portfolio_Soorajjain/static/media/microsoft_clone.1011f6efe3e4e8d7d0eb.png",
+    "static/media/freelance_project.png": "/portfolio_Soorajjain/static/media/freelance_project.966bcc7385c700eb8107.png",
+    "static/media/calculator_project.png": "/portfolio_Soorajjain/static/media/calculator_project.4c7d0c3d792da1841a46.png",
+    "static/media/logo-sj.png": "/portfolio_Soorajjain/static/media/logo-sj.8a2c6410c931c9fc2c0b.png",
+    "static/media/hero-devices-sj.svg": "/portfolio_Soorajjain/static/media/hero-devices-sj.ca82e97c349a897082b6268dd7f8d733.svg",
+    "static/media/logo-white.png": "/portfolio_Soorajjain/static/media/logo-white.656d63724f5e9b5c0f81.png",
+    "index.html": "/portfolio_Soorajjain/index.html",
+    "main.d7e04931.css.map": "/portfolio_Soorajjain/static/css/main.d7e04931.css.map",
+    "main.f70b831d.js.map": "/portfolio_Soorajjain/static/js/main.f70b831d.js.map",
+    "453.8635fdc4.chunk.js.map": "/portfolio_Soorajjain/static/js/453.8635fdc4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7e04931.css",
-    "static/js/main.b5fa8ffe.js"
+    "static/js/main.f70b831d.js"
   ]
 }
