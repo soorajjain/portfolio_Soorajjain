@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HeroSection from "./pages/main/HeroSection";
 import Layout from "./components/Layout/Layout";
 import About from "./pages/main/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -15,6 +16,14 @@ function App() {
               <Layout>
                 <HeroSection />
                 <About />
+              </Layout>
+            }
+          />
+          <Route
+            path="/Contact"
+            element={
+              <Layout>
+                <Contact />
               </Layout>
             }
           />

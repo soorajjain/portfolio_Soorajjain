@@ -24,17 +24,17 @@ function Navbar() {
             <img src={logo} className="md:w-[150px] w-[100px]" alt="logo" />
           </Link>
         </div>
-        <div className="flex gap-14 items-center mx-4 text-l">
+        <div className="flex gap-14 items-center mx-4 text-l hover:text-[#6E07F3]">
           <a
             href="#about"
             onClick={handleScroll}
-            className="hidden md:block hover:text-red-500"
+            className="hidden hover:text-[#6E07F3] md:block"
           >
             About
           </a>
           <Link
-            to="/redirect"
-            className="border  border-[#6E07F3]  hover:bg-[#6E07F3] hover:text-[#FFFFFF] rounded-3xl md:p-3 md:px-6 p-2 px-3 "
+            to="/Contact"
+            className="border-[2px] border-[#6E07F3]  hover:bg-[#6E07F3] hover:text-[#FFFFFF] rounded-3xl md:p-3 md:px-6 p-2 px-3 "
           >
             Say Hello
           </Link>
