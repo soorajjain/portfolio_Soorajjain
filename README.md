@@ -4,7 +4,7 @@
 
 ## Live App
 
-Checkout My Portfolio Now!(https://soorajjain.github.io/portfolio_Soorajjain/).
+[<span style="font-weight: bold; color: #00aaff; text-decoration: underline; font-size: 1.2em;">Checkout My Portfolio Now!</span>](https://soorajjain.github.io/portfolio_Soorajjain/).
 
 ## Features
  - Mobile-first approach ensures compatibility with various devices.
