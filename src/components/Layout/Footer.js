@@ -8,12 +8,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <div>

@@ -4,11 +4,13 @@ import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
 import portfolio from "../../assets/Sooraj_portfolio.png";
-import { Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import calculator_project from "../../assets/calculator_project.png";
 import natural_foods from "../../assets/natural_foods_project.png";
 import freelance from "../../assets/freelance_project.png";
+import microsoft from "../../assets/microsoft_clone.png";
+
+import { Link } from "react-router-dom";
 
 function RecentWork() {
   const ImageButton = styled(ButtonBase)(({ theme }) => ({
@@ -114,7 +116,9 @@ function RecentWork() {
                     pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                   }}
                 >
-                  <a href="#">Freelance HUB [MERN]</a>
+                  <Link to="#" target="_blank" rel="noopener noreferrer">
+                    Freelance HUB [MERN]
+                  </Link>
                   <ImageMarked className="MuiImageMarked-root" />
                 </Typography>
                 <div className="flex gap-4">
@@ -211,18 +215,18 @@ function RecentWork() {
                     pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                   }}
                 >
-                  PortFolio <br /> [React JS, MUI, Tailwind]
+                  PortFolio <br /> [React JS, MUI, Tailwind, EmailJS]
                   <ImageMarked className="MuiImageMarked-root" />
                 </Typography>
                 <div className="flex gap-4">
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
                   >
                     Live demo
-                  </a>
+                  </Link>
                   <a
                     href="https://github.com/soorajjain/Portfolio_Sooraj-Jain.git"
                     target="_blank"
@@ -303,9 +307,7 @@ function RecentWork() {
               className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
               focusRipple
             >
-              <ImageSrc
-                style={{ backgroundImage: `url(${calculator_project})` }}
-              />
+              <ImageSrc style={{ backgroundImage: `url(${microsoft})` }} />
               <ImageBackdrop className="MuiImageBackdrop-root" />
               <Image className="flex flex-col mt-10 gap-6">
                 <Typography
@@ -319,12 +321,12 @@ function RecentWork() {
                     pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                   }}
                 >
-                  Calculator [React JS, Tailwind]
+                  Microsoft UI Clone [Responsive, Vite]
                   <ImageMarked className="MuiImageMarked-root" />
                 </Typography>
                 <div className="flex gap-4">
                   <a
-                    href="https://soorajjain.github.io/Calculator-React-Tailwind/"
+                    href="https://soorajjain.github.io/tailwind_microsoft_responsive/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
@@ -332,7 +334,7 @@ function RecentWork() {
                     Live demo
                   </a>
                   <a
-                    href="https://github.com/soorajjain/Calculator-React-Tailwind"
+                    href="https://github.com/soorajjain/tailwind_microsoft_responsive.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
@@ -344,7 +346,6 @@ function RecentWork() {
             </ImageButton>
           </Box>
         </div>
-        
       </div>
 
       {/* grid ends here */}

@@ -1,7 +1,7 @@
 import React from "react";
 import computer from "../../assets/hero-devices-sj.svg";
-import code from "../../assets/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 function About() {
   return (
