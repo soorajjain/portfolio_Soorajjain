@@ -3,15 +3,16 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
+import portfolio from "../../assets/Sooraj_portfolio.png";
+import { Link } from "react-router-dom";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import calculator_project from "../../assets/calculator_project.png";
+import natural_foods from "../../assets/natural_foods_project.png";
+import freelance from "../../assets/freelance_project.png";
 
 function RecentWork() {
   const ImageButton = styled(ButtonBase)(({ theme }) => ({
     position: "relative",
-    height: 200,
-    [theme.breakpoints.down("sm")]: {
-      width: "100% !important", // Overrides inline-style
-      height: 100,
-    },
     "&:hover, &.Mui-focusVisible": {
       zIndex: 1,
       "& .MuiImageBackdrop-root": {
@@ -68,7 +69,6 @@ function RecentWork() {
     left: "calc(50% - 9px)",
     transition: theme.transitions.create("opacity"),
   }));
-  
   return (
     <>
       {/* blank space starts here -> bcs of relative and absolute */}
@@ -87,25 +87,264 @@ function RecentWork() {
 
       {/* grid starts here */}
       <div className="flex flex-wrap gap-4 w-full items-center justify-center mt-10">
-        <div className="work-1 sm:h-[275px] sm:w-[413px] h-[217px] w-[327px]  text-[18px] font-serif border rounded-md border-black bg-[rgb(110,7,243)]">
-          <img src="" alt="" />
+        <div className="work-1">
+          <Box
+            className=""
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%",
+            }}
+          >
+            <ImageButton
+              className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
+              focusRipple
+            >
+              <ImageSrc style={{ backgroundImage: `url(${freelance})` }} />
+              <ImageBackdrop className="MuiImageBackdrop-root" />
+              <Image className="flex flex-col mt-10 gap-6">
+                <Typography
+                  component="span"
+                  variant="subtitle1"
+                  color="inherit"
+                  sx={{
+                    position: "relative",
+                    p: 4,
+                    pt: 2,
+                    pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                  }}
+                >
+                  <a href="#">Freelance HUB [MERN]</a>
+                  <ImageMarked className="MuiImageMarked-root" />
+                </Typography>
+                <div className="flex gap-4">
+                  <a
+                    href="https://github.com/soorajjain/Freelance-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
+                  >
+                    <GitHubIcon className="icon" />
+                  </a>
+                </div>
+              </Image>
+            </ImageButton>
+          </Box>
         </div>
-        <div className="work-2 sm:h-[275px] sm:w-[413px] h-[217px] w-[327px]  text-[18px] font-serif border rounded-md border-black bg-[rgb(110,7,243)]">
-          <img src="" alt="" />
+        <div className="work-2">
+          <Box
+            className=""
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%",
+            }}
+          >
+            <ImageButton
+              className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
+              focusRipple
+            >
+              <ImageSrc style={{ backgroundImage: `url(${natural_foods})` }} />
+              <ImageBackdrop className="MuiImageBackdrop-root" />
+              <Image className="flex flex-col mt-10 gap-6">
+                <Typography
+                  component="span"
+                  variant="subtitle1"
+                  color="inherit"
+                  sx={{
+                    position: "relative",
+                    p: 4,
+                    pt: 2,
+                    pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                  }}
+                >
+                  Natural Foods Website
+                  <br /> [React, Tailwind, MUI]
+                  <ImageMarked className="MuiImageMarked-root" />
+                </Typography>
+                <div className="flex gap-4">
+                  <a
+                    href="https://soorajjain.github.io/Natural_foods-web_frontend/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/soorajjain/Natural_foods-web_frontend/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
+                  >
+                    <GitHubIcon className="icon" />
+                  </a>
+                </div>
+              </Image>
+            </ImageButton>
+          </Box>
         </div>
-        <div className="work-3 sm:h-[275px] sm:w-[413px] h-[217px] w-[327px]  text-[18px] font-serif border rounded-md border-black bg-[rgb(110,7,243)]">
-          <img src="" alt="" />
+        <div className="work-3">
+          <Box
+            className=""
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%",
+            }}
+          >
+            <ImageButton
+              className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
+              focusRipple
+            >
+              <ImageSrc style={{ backgroundImage: `url(${portfolio})` }} />
+              <ImageBackdrop className="MuiImageBackdrop-root" />
+              <Image className="flex flex-col mt-10 gap-6">
+                <Typography
+                  component="span"
+                  variant="subtitle1"
+                  color="inherit"
+                  sx={{
+                    position: "relative",
+                    p: 4,
+                    pt: 2,
+                    pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                  }}
+                >
+                  PortFolio <br /> [React JS, MUI, Tailwind]
+                  <ImageMarked className="MuiImageMarked-root" />
+                </Typography>
+                <div className="flex gap-4">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/soorajjain/Portfolio_Sooraj-Jain.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
+                  >
+                    <GitHubIcon className="icon" />
+                  </a>
+                </div>
+              </Image>
+            </ImageButton>
+          </Box>
         </div>
-        <div className="work-4 sm:h-[275px] sm:w-[413px] h-[217px] w-[327px]  text-[18px] font-serif border rounded-md border-black bg-[rgb(110,7,243)]">
-          <img src="" alt="" />
-          sm:{" "}
+        <div className="work-4">
+          <Box
+            className=""
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%",
+            }}
+          >
+            <ImageButton
+              className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
+              focusRipple
+            >
+              <ImageSrc
+                style={{ backgroundImage: `url(${calculator_project})` }}
+              />
+              <ImageBackdrop className="MuiImageBackdrop-root" />
+              <Image className="flex flex-col mt-10 gap-6">
+                <Typography
+                  component="span"
+                  variant="subtitle1"
+                  color="inherit"
+                  sx={{
+                    position: "relative",
+                    p: 4,
+                    pt: 2,
+                    pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                  }}
+                >
+                  Calculator [React JS, Tailwind]
+                  <ImageMarked className="MuiImageMarked-root" />
+                </Typography>
+                <div className="flex gap-4">
+                  <a
+                    href="https://soorajjain.github.io/Calculator-React-Tailwind/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/soorajjain/Calculator-React-Tailwind"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
+                  >
+                    <GitHubIcon className="icon" />
+                  </a>
+                </div>
+              </Image>
+            </ImageButton>
+          </Box>
         </div>
-        <div className="work-5 sm:h-[275px] sm:w-[413px] h-[217px] w-[327px]  text-[18px] font-serif border rounded-md border-black bg-[rgb(110,7,243)]">
-          <img src="" alt="" />
+        <div className="work-5">
+          <Box
+            className=""
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%",
+            }}
+          >
+            <ImageButton
+              className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
+              focusRipple
+            >
+              <ImageSrc
+                style={{ backgroundImage: `url(${calculator_project})` }}
+              />
+              <ImageBackdrop className="MuiImageBackdrop-root" />
+              <Image className="flex flex-col mt-10 gap-6">
+                <Typography
+                  component="span"
+                  variant="subtitle1"
+                  color="inherit"
+                  sx={{
+                    position: "relative",
+                    p: 4,
+                    pt: 2,
+                    pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                  }}
+                >
+                  Calculator [React JS, Tailwind]
+                  <ImageMarked className="MuiImageMarked-root" />
+                </Typography>
+                <div className="flex gap-4">
+                  <a
+                    href="https://soorajjain.github.io/Calculator-React-Tailwind/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/soorajjain/Calculator-React-Tailwind"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
+                  >
+                    <GitHubIcon className="icon" />
+                  </a>
+                </div>
+              </Image>
+            </ImageButton>
+          </Box>
         </div>
-        <div className="work-6 sm:h-[275px] sm:w-[413px] h-[217px] w-[327px]   text-[18px] font-serif border rounded-md border-black bg-[rgb(110,7,243)]">
-          <img src="" alt="" />
-        </div>
+        
       </div>
 
       {/* grid ends here */}
