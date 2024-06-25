@@ -4,6 +4,7 @@ import HeroSection from "./pages/main/HeroSection";
 import Layout from "./components/Layout/Layout";
 import About from "./pages/main/About";
 import Contact from "./pages/Contact";
+import RecentWork from "./pages/main/RecentWork";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Layout>
                 <HeroSection />
                 <About />
+                <RecentWork />
               </Layout>
             }
           />

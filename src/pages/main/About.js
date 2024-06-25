@@ -23,17 +23,22 @@ function About() {
             </div>
             <div className="relative font-serif text-[20px] w-[300px] sm:w-[600px] ">
               <h1 className="text-center">
-                Since beginning my journey as a freelance designer 12 years ago,
-                I've done remote work for agencies, consulted for startups, and
-                collaborated with talented people to create digital products for
-                both business and consumer use. I'm quietly confident, naturally
-                curious, and perpetually working on improving my chops.
+                I'm a passionate full-stack web developer who loves building
+                dynamic and responsive web applications. Currently, I'm diving
+                deep into the MERN stack—MongoDB, Express, React, and Node.js—to
+                create seamless and interactive user experiences. By mastering
+                these technologies, I aim to deliver high-quality, innovative
+                web applications.
               </h1>
+
+              <button></button>
             </div>
+
+
           </div>
 
           {/* 1st absolute box starts here */}
-          <div className="absolute sm:w-[40%] lg:w-[35%] w-[80%] sm:top-[1700px] top-[1465px] h-[640px] left-[10%] sm:left-[2%]lg:left-[14%] bg-[#ffffff] flex flex-col gap-6 border rounded-2xl justify-center items-center text-[#141c3a] text-center hover:shadow-2xl ">
+          <div className="absolute sm:w-[45%] lg:w-[35%] w-[80%] sm:top-[1700px] top-[1465px] h-[640px] left-[10%] sm:left-[4%] lg:left-[14%] bg-[#ffffff] flex flex-col gap-6 border rounded-2xl justify-center items-center text-[#141c3a] text-center hover:shadow-2xl ">
             <div className="code w-[82px] mt-[-30px] sm:mt-10">
               <img
                 className="w-[72px]"
@@ -74,8 +79,8 @@ function About() {
           {/* 1st absolute box ends here */}
 
           {/* 2nd absolute box starts here */}
-          <div className="absolute sm:w-[40%] lg:w-[35%] w-[80%] sm:top-[1700px] h-[640px] right-[10%] top-[2125px] sm:right-[4%] lg:right-[14%] bg-[#ffffff] flex flex-col gap-6 border rounded-2xl justify-center items-center text-[#141c3a] text-center hover:shadow-2xl">
-            <div className="code w-[82px] mt-[-30px]">
+          <div className="absolute sm:w-[45%] lg:w-[35%] w-[80%] sm:top-[1700px] h-[640px] right-[10%] top-[2125px] sm:right-[4%] lg:right-[14%] bg-[#ffffff] flex flex-col gap-6 border rounded-2xl justify-center items-center text-[#141c3a] text-center hover:shadow-2xl">
+            <div className="code w-[82px] mt-[-30px] sm:mt-6">
               <img
                 className="w-[72px]"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt9ePgveMjN5Z9IdGaoO-i_yfE3-ASN7QATU1_PSuqK5C6VM0m"
@@ -125,9 +130,9 @@ function About() {
         </div>
 
         {/* absolute link to my page starts here */}
-        <div className="absolute sm:w-[80%] sm:left-[10%] w-[90%] sm:px-10 mb-10 bg-[#6E07F3] h-[100px] sm:h-[30px] sm:top-[2270px] top-[2749px] text-white text-center left-[5%] font-mono border rounded-xl hover:shadow-2xl">
-          <h1>
-            You can learn more about my work and connect with me on &nbsp;
+        <div className="absolute sm:w-[95%] md:w-[60%] md:left-[20%] sm:left-[2.5%] w-[90%] sm:px-10 mb-10 bg-[#6E07F3] h-[100px] sm:h-[90px] sm:top-[2330px] top-[2749px] text-white text-center left-[5%] font-mono border rounded-xl hover:shadow-2xl text-sm sm:text-sm flex items-center">
+          <h1 className="mx-3 text-center">
+            You can learn more about my work and connect with me on&nbsp;
             <a
               className="text-[#ffffff] underline"
               href="https://www.linkedin.com/in/soorajjain/"
@@ -136,7 +141,7 @@ function About() {
             >
               LinkedIn
             </a>{" "}
-            and explore my projects on &nbsp;
+            and explore my projects on&nbsp;
             <a
               className="text-[#ffffff] underline"
               href="https://github.com/soorajjain"

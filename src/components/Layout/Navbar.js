@@ -18,7 +18,7 @@ function Navbar() {
   };
   return (
     <nav id="home" className="w-full bg-[#FFFFFF]">
-      <div className="Navbar max-w-[1170px] h-[126px] text-[#141C3A] lg:mx-auto flex justify-between py-8 bg-[#FFFFFF] mx-3">
+      <div className="Navbar max-w-[1170px] h-[126px] text-[#141C3A] lg:mx-auto flex justify-between py-8 bg-[#FFFFFF] mx-3 mt-[-20px] sm:mt-0">
         <div className="flex  items-center">
           <Link to="/" className="px-1 mt-5">
             <img src={logo} className="md:w-[150px] w-[100px]" alt="logo" />
