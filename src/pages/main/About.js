@@ -25,7 +25,7 @@ function About() {
             <a href={myResume} target="_blank" rel="noopener noreferrer">
               <Button
                 variant="contained"
-                className="!p-2 !sm:w-[300px] w-[150px]"
+                className="!p-3 !sm:w-[300px] w-[150px]"
                 endIcon={<RocketLaunchIcon />}
               >
                 My Resume
@@ -79,9 +79,7 @@ function About() {
               <br />
               VS Code
               <br />
-              npm
-              <br />
-              Prettier
+              
             </div>
           </div>
           {/* 1st absolute box ends here */}
