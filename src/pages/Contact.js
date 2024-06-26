@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -11,6 +11,7 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Password } from "@mui/icons-material";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 
@@ -18,28 +19,48 @@ const defaultTheme = createTheme();
 
 export default function Contact() {
   const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  console.log(name, email, message);
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm("service_w1pyj8j", "template_l4yt7ei", form.current, {
-        publicKey: "Ybo-Sqa62Z2VFoeZ4",
-      })
-      .then(
-        () => {
-          toast.success("Email sent successfully!");
-        },
-        (error) => {
-          toast.error("Failed to send email. Please try again.");
-          console.log("FAILED...", error.text);
-        }
-      );
+    if (!name || !email || !message) {
+      toast.error("Fill out all the fields !!");
+      return; // Add return here to stop further execution
+    } else {
+      emailjs
+        .sendForm("service_w1pyj8j", "template_l4yt7ei", form.current, {
+          publicKey: "Ybo-Sqa62Z2VFoeZ4",
+        })
+        .then(
+          () => {
+            toast.success("Email sent successfully!");
+          },
+          (error) => {
+            toast.error("Failed to send email. Please try again.");
+            console.log("FAILED...", error);
+          }
+        );
+    }
   };
 
   return (
     <ThemeProvider theme={defaultTheme}>
-      <ToastContainer />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <Container component="main" maxWidth="xs" className="">
         <CssBaseline />
         <Box
@@ -70,6 +91,7 @@ export default function Contact() {
                   id="from_name"
                   label="Name"
                   autoFocus
+                  onChange={(e) => setName(e.target.value)}
                 />
               </Grid>
               <Grid item xs={12}>
@@ -80,6 +102,7 @@ export default function Contact() {
                   label="Email Address"
                   name="from_name"
                   autoComplete="email"
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </Grid>
               <Grid item xs={12}>
@@ -91,6 +114,7 @@ export default function Contact() {
                   multiline
                   rows={6}
                   autoComplete="new-password"
+                  onChange={(e) => setMessage(e.target.value)}
                 />
               </Grid>
             </Grid>
