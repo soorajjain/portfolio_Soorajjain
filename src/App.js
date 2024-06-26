@@ -9,7 +9,7 @@ import RecentWork from "./pages/main/RecentWork";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio_Soorajjain">
         <Routes>
           <Route
             path="/"

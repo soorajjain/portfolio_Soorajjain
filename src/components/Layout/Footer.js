@@ -15,7 +15,7 @@ function Footer() {
         <div className="w-[70px]">
           <img src={logo} alt="" />
         </div>
-        <div className="font-mono sm:text-[22px] text-[18px] font-extrabold text-center mx-10 sm:mx-0 sm:w-[600px] ">
+        <div className="font-eurostile sm:text-[22px] text-[18px] font-extrabold text-center mx-10 sm:mx-0 sm:w-[600px] ">
           Living, learning, & leveling up <br /> one day at a time.
         </div>
         <div className="Buttons-link flex gap-3">

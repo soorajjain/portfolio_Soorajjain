@@ -321,7 +321,7 @@ function RecentWork() {
                     pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                   }}
                 >
-                  Microsoft UI Clone [Responsive, Vite]
+                  Microsoft UI Clone<br/>[Responsive, Vite]
                   <ImageMarked className="MuiImageMarked-root" />
                 </Typography>
                 <div className="flex gap-4">
