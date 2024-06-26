@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-4 sm:mt-8 gap-6 mx-5 sm:mx-0">
-        <div className="block-1 font-mono sm:text-[48px] text-[32px] font-extrabold text-center">
+        <div className="block-1 font-eurostile sm:text-[48px] text-[32px] font-extrabold text-center">
           Web developer and
           <br /> MERN stack developer
         </div>

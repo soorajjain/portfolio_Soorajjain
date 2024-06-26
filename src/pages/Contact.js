@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <ToastContainer />
-      <Container component="main" maxWidth="xs">
+      <Container component="main" maxWidth="xs" className="">
         <CssBaseline />
         <Box
           sx={{
@@ -50,9 +50,9 @@ export default function Contact() {
             alignItems: "center",
           }}
         >
-          <Typography component="h1" variant="h3" className="text-center">
+          <h1 className="text-center font-eurostile text-[45px] mb-10">
             Thanks for taking the time to reach out.
-          </Typography>
+          </h1>
           <Box
             component="form"
             noValidate

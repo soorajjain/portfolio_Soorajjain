@@ -1,7 +1,8 @@
 import React from "react";
 import computer from "../../assets/hero-devices-sj.svg";
-
-
+import Button from "@mui/material/Button";
+import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
+import myResume from "../../assets/pdf/Resume_SoorajJain.pdf";
 
 function About() {
   return (
@@ -17,11 +18,20 @@ function About() {
             className="w-full  bg-[rgb(110,7,243)] h-[700px] text-[#FFFFFF] flex justify-center items-center flex-col gap-10 "
             id="about"
           >
-            <div className="font-mono sm:text-[32px] text-[24px] font-extrabold text-center mx-10 sm:mx-0 sm:w-[600px] sm:mt-[-200px] mt-[-100px] ">
+            <div className="font-eurostile sm:text-[32px] text-[24px] font-extrabold text-center mx-10 sm:mx-0 sm:w-[600px] sm:mt-[-150px] mt-[-50px] ">
               Hi there, I'm Sooraj Jain 👋
               <br /> Nice to meet you.
             </div>
-            <div className="relative font-serif text-[20px] w-[300px] sm:w-[600px] ">
+            <a href={myResume} target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="contained"
+                className="!p-2 !sm:w-[300px] w-[150px]"
+                endIcon={<RocketLaunchIcon />}
+              >
+                My Resume
+              </Button>
+            </a>
+            <div className="relative font-serif sm:text-[20px] text-[18px] w-[330px] sm:w-[600px] ">
               <h1 className="text-center">
                 I'm a passionate full-stack web developer who loves building
                 dynamic and responsive web applications. Currently, I'm diving
@@ -33,8 +43,6 @@ function About() {
 
               <button></button>
             </div>
-
-
           </div>
 
           {/* 1st absolute box starts here */}
@@ -47,7 +55,7 @@ function About() {
               />
             </div>
             <div>
-              <h1 className="text-[24px] font-mono font-extrabold mx-2">
+              <h1 className="text-[24px] font-eurostile font-extrabold mx-2">
                 Frontend Developer
               </h1>
             </div>
@@ -88,7 +96,7 @@ function About() {
               />
             </div>
             <div>
-              <h1 className="text-[24px] font-mono font-extrabold mx-5">
+              <h1 className="text-[24px] font-eurostile font-extrabold mx-5">
                 MERN Stack Developer
               </h1>
             </div>
