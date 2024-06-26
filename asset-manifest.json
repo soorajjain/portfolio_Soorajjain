@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_Soorajjain/static/css/main.f09e9475.css",
-    "main.js": "/portfolio_Soorajjain/static/js/main.acbcd554.js",
+    "main.css": "/portfolio_Soorajjain/static/css/main.26848811.css",
+    "main.js": "/portfolio_Soorajjain/static/js/main.7526c45e.js",
     "static/js/453.8635fdc4.chunk.js": "/portfolio_Soorajjain/static/js/453.8635fdc4.chunk.js",
     "static/media/hro-sooraj.png": "/portfolio_Soorajjain/static/media/hro-sooraj.0b4c53ab15518b3770e4.png",
     "static/media/natural_foods_project.png": "/portfolio_Soorajjain/static/media/natural_foods_project.1db5410a655d570bb426.png",
@@ -15,12 +15,12 @@
     "static/media/hero-devices-sj.svg": "/portfolio_Soorajjain/static/media/hero-devices-sj.ca82e97c349a897082b6268dd7f8d733.svg",
     "static/media/logo-white.png": "/portfolio_Soorajjain/static/media/logo-white.656d63724f5e9b5c0f81.png",
     "index.html": "/portfolio_Soorajjain/index.html",
-    "main.f09e9475.css.map": "/portfolio_Soorajjain/static/css/main.f09e9475.css.map",
-    "main.acbcd554.js.map": "/portfolio_Soorajjain/static/js/main.acbcd554.js.map",
+    "main.26848811.css.map": "/portfolio_Soorajjain/static/css/main.26848811.css.map",
+    "main.7526c45e.js.map": "/portfolio_Soorajjain/static/js/main.7526c45e.js.map",
     "453.8635fdc4.chunk.js.map": "/portfolio_Soorajjain/static/js/453.8635fdc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f09e9475.css",
-    "static/js/main.acbcd554.js"
+    "static/css/main.26848811.css",
+    "static/js/main.7526c45e.js"
   ]
 }
