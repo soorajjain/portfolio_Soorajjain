@@ -31,7 +31,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://soorajjain.in"
+            href="https://soorajjain.github.io/portfolio_Soorajjain"
             target="_blank"
             rel="noopener noreferrer"
             className="w-[47px] h-[47px] border border-white rounded-[50%] hover:text-[rgb(110,7,243)] hover:bg-white flex justify-center items-center"

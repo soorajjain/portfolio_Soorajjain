@@ -33,12 +33,12 @@ function About() {
             </a>
             <div className="relative font-serif sm:text-[20px] text-[18px] w-[330px] sm:w-[600px] ">
               <h1 className="text-center">
-                I'm a passionate full-stack web developer who loves building
-                dynamic and responsive web applications. Currently, I'm diving
-                deep into the MERN stack—MongoDB, Express, React, and Node.js—to
-                create seamless and interactive user experiences. By mastering
-                these technologies, I aim to deliver high-quality, innovative
-                web applications.
+                I'm a passionate Web developer who loves building dynamic and
+                responsive web applications. Currently, I'm diving deep into the
+                MERN stack—MongoDB, Express, React, and Node.js—to create
+                seamless and interactive user experiences. By mastering these
+                technologies, I aim to deliver high-quality, innovative web
+                applications.
               </h1>
 
               <button></button>
@@ -67,19 +67,19 @@ function About() {
             </div>
             <div className="text-[18px] ">
               <span className="text-[#6E07F3]">Languages I speak:</span>
-              <br /> HTML, CSS, JS
+              <br />
+              JavaScript, HTML, CSS
             </div>
             <div className="">
               <span className="text-[#6E07F3]">Dev Tools:</span>
               <br />
               React JS <br />
               Tailwind CSS <br />
-              MUI, Shadcn <br /> Github
+              MUI, Shadcn/ui <br /> Github
               <br /> Netlify
               <br />
               VS Code
               <br />
-              
             </div>
           </div>
           {/* 1st absolute box ends here */}
@@ -122,9 +122,9 @@ function About() {
                   <br />
                 </div>
                 <div>
-                  React Router <br />
+                  Router-Dom <br />
                   Mongoose <br />
-                  Postman
+                  Postman API
                   <br /> Nodemon
                   <br /> Netlify
                   <br /> VS Code
