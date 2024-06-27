@@ -30,7 +30,7 @@ function Navbar() {
             onClick={handleScroll}
             className="hidden hover:text-[#6E07F3] md:block"
           >
-            About
+            About Sooraj
           </a>
           <Link
             to="/Contact"
