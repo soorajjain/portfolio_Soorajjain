@@ -16,6 +16,7 @@ function Navbar() {
       });
     }
   };
+
   return (
     <nav id="home" className="w-full bg-[#FFFFFF]">
       <div className="Navbar max-w-[1170px] h-[126px] text-[#141C3A] lg:mx-auto flex justify-between py-8 bg-[#FFFFFF] mx-3 mt-[-20px] sm:mt-0">
