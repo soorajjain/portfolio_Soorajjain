@@ -123,7 +123,7 @@ function RecentWork() {
                 </Typography>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/soorajjain/Freelance-app"
+                    href="https://github.com/soorajjain/FreelanceHub.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-[1px] border-white hover:bg-white hover:text-black rounded-2xl md:p-3 md:px-3 p-1 px-1.5 text-l sm:text-sm flex items-center text-center"
@@ -321,7 +321,9 @@ function RecentWork() {
                     pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                   }}
                 >
-                  Microsoft UI Clone<br/>[Responsive, Vite]
+                  Microsoft UI Clone
+                  <br />
+                  [Responsive, Vite]
                   <ImageMarked className="MuiImageMarked-root" />
                 </Typography>
                 <div className="flex gap-4">
