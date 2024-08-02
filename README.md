@@ -7,20 +7,19 @@
 [<span style="font-weight: bold; color: #00aaff; text-decoration: underline; font-size: 1.2em;">Checkout My Portfolio Now!</span>](https://soorajjain.github.io/portfolio_Soorajjain/)
 
 ## Features
- - Mobile-first approach ensures compatibility with various devices.
- - Built with modular and reusable React components for efficient development.
+
+- Mobile-first approach ensures compatibility with various devices.
+- Built with modular and reusable React components for efficient development.
 - Utilizes Tailwind's utility-first approach for easy styling and customization.
--  Integrates Material-UI components for a cohesive and modern design system.
+- Integrates Material-UI components for a cohesive and modern design system.
 
 ## Technologies Used
 
 - React
 - Tailwind CSS
 - MUI
-- Vite (for fast development)
 - Netlify (for deployment)
 
 ---
 
-Thank you 
-
+Thank you
