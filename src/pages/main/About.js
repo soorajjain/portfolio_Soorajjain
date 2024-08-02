@@ -2,7 +2,7 @@ import React from "react";
 import computer from "../../assets/hero-devices-sj.svg";
 import Button from "@mui/material/Button";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
-import myResume from "../../assets/pdf/soorajjain_webdev.pdf";
+import myResume from "../../assets/pdf/soorajjain_resume.pdf";
 
 function About() {
   return (
