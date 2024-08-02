@@ -33,7 +33,12 @@ function About() {
             </a>
             <div className="relative font-serif sm:text-[20px] text-[18px] w-[330px] sm:w-[600px] ">
               <h1 className="text-center">
-              I'm a passionate full stack developer who loves building dynamic and responsive web applications. Currently, I'm diving deep into the MERN stack—MongoDB, Express, React, and Node.js—to create seamless and interactive user experiences. By mastering these technologies, I aim to deliver high-quality, innovative web applications.
+                I'm a passionate full stack developer who loves building dynamic
+                and responsive web applications. Currently, I'm diving deep into
+                the MERN stack—MongoDB, Express, React, and Node.js—to create
+                seamless and interactive user experiences. By mastering these
+                technologies, I aim to deliver high-quality, innovative web
+                applications.
               </h1>
 
               <button></button>
@@ -90,7 +95,7 @@ function About() {
             </div>
             <div>
               <h1 className="text-[24px] font-eurostile font-extrabold mx-5">
-                MERN Stack Developer
+                Full Stack Developer
               </h1>
             </div>
             <div>
@@ -101,26 +106,29 @@ function About() {
             </div>
             <div className="text-[18px] ">
               <span className="text-[#6E07F3]">Languages I speak:</span>
-              <br /> JavaScript, HTML, CSS
+              <br /> Python, JavaScript
             </div>
             <div>
               <span className="text-[#6E07F3]">Dev Tools:</span>
               <div className="grid grid-cols-2 gap-5 text-center">
                 <div>
-                  React JS <br />
                   Node JS
+                  <br /> React JS
                   <br /> Express JS
                   <br /> MongoDB
-                  <br /> Github
-                  <br />
-                  Tailwind CSS
+                  <br /> SQL
+                  <br /> Axios
+                  <br /> GitHub
                   <br />
                 </div>
                 <div>
-                  Router-Dom <br />
                   Mongoose <br />
                   Postman API
                   <br /> Nodemon
+                  <br />
+                  Microservices Architecture
+                  <br />
+                  CI/CD
                   <br /> Netlify
                   <br /> VS Code
                 </div>
