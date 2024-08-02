@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
 import portfolio from "../../assets/Sooraj_portfolio.png";
+import Python from "../../assets/python_screentime.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import calculator_project from "../../assets/calculator_project.png";
 import natural_foods from "../../assets/natural_foods_project.png";
@@ -89,7 +90,7 @@ function RecentWork() {
 
       {/* grid starts here */}
       <div className="flex flex-wrap gap-4 w-full items-center justify-center mt-10">
-        <div className="work-1">
+        <div className="work-0">
           <Box
             className=""
             sx={{
@@ -135,6 +136,52 @@ function RecentWork() {
             </ImageButton>
           </Box>
         </div>
+        <div className="work-1">
+          <Box
+            className=""
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%",
+            }}
+          >
+            <ImageButton
+              className="sm:h-[275px] sm:w-[413px] h-[217px] w-[327px] text-[18px] font-serif"
+              focusRipple
+            >
+              <ImageSrc style={{ backgroundImage: `url(${Python})` }} />
+              <ImageBackdrop className="MuiImageBackdrop-root" />
+              <Image className="flex flex-col mt-10 gap-6">
+                <Typography
+                  component="span"
+                  variant="subtitle1"
+                  color="inherit"
+                  sx={{
+                    position: "relative",
+                    p: 4,
+                    pt: 2,
+                    pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                  }}
+                >
+                  Sreentime Analysis <br /> [Python, Seaborn, Plotly,
+                  Scikit-Learn ]
+                  <ImageMarked className="MuiImageMarked-root" />
+                </Typography>
+                <div className="flex gap-4">
+                  <a
+                    href="https://colab.research.google.com/drive/1CJgED6ItG8FHyzFYMBoxsS380INDX6HE#scrollTo=SAO_nRfWwaU2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-[1px] border-white hover:bg-black hover:white hover:text-white rounded-3xl sm:p-4 sm:px-4 p-2 px-3 text-sm sm:text-l flex items-center text-center"
+                  >
+                    Live demo
+                  </a>
+                </div>
+              </Image>
+            </ImageButton>
+          </Box>
+        </div>
+
         <div className="work-2">
           <Box
             className=""
