@@ -33,12 +33,7 @@ function About() {
             </a>
             <div className="relative font-serif sm:text-[20px] text-[18px] w-[330px] sm:w-[600px] ">
               <h1 className="text-center">
-                I'm a passionate Web developer who loves building dynamic and
-                responsive web applications. Currently, I'm diving deep into the
-                MERN stack—MongoDB, Express, React, and Node.js—to create
-                seamless and interactive user experiences. By mastering these
-                technologies, I aim to deliver high-quality, innovative web
-                applications.
+              I'm a passionate full stack developer who loves building dynamic and responsive web applications. Currently, I'm diving deep into the MERN stack—MongoDB, Express, React, and Node.js—to create seamless and interactive user experiences. By mastering these technologies, I aim to deliver high-quality, innovative web applications.
               </h1>
 
               <button></button>
